@@ -1,51 +1,72 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+# Projeto EBOOK Gerado por I.A.s
 
-## 🚀 Introdução
 
-> Woooow! Look at this 👀
+ > ℹ️ **NOTE:** Este é o repositório desenvolvido durante o curso na plataforma da [DIO](https://dio.me)
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+Projeto com o objetivo de gerar um ebook digital com as facilidades das ferramentas de IA. todos os prompts
+seguem abaixo.
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+<a href="https://github.com/silvaadrian/prompts-recipe-to-create-a-ebook/blob/main/output/Ebook%20-%20mad%20max%20explorando%20o%20php.pdf" title="View PDF now"> 📕Clique aqui para ler</a>
 
-### Objetivos
+## 💻 Tecnologias utilizadas no projeto
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+- [ChatGPT](https://chat.openai.com/) 
+- [TESS AI](https://tess.pareto.io/dashboard/user/ai/generator/poster-de-filme-disney-pixar-por-at-maria-martasf-etWmK9?guidance_scale=6&image_number_of_images=1&image_size=1024x576&negative_prompt=amputee%2C+autograph%2C+bad+anatomy%2C+bad+illustration%2C+bad+proportions%2C+beyond+the+borders%2C+blank+background%2C+blurry%2C+body+out+of+frame%2C+boring+background%2C+branding%2C+cropped%2C+cut+off%2C+deformed%2C+disfigured%2C+dismembered%2C+disproportioned%2C+distorted%2C+draft%2C+duplicate%2C+duplicated+features%2C+extra+arms%2C+extra+fingers%2C+extra+hands%2C+extra+legs%2C+extra+limbs%2C+fault%2C+flaw%2C+fused+fingers%2C+grains&num_inference_steps=50&prompt_strength=0.9&refine=no_refiner&scheduler=K_EULER&descreva-em-detalhes-a-foto-da-pessoa=mad+max+exploring+the+desert+in+his+black+maverick&image_style=pixel&nome-do-filme-no-poster=Mad+Max&image_lighting=cinematic)
+- [WPS](https://www.wps.com/pt-BR/)
 
-### Template
+## 🧠 Prompts
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
 
-## 📒 Descrição
-Breve descrição do seu projeto
+ChatGPT：
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+|   Ação   | prompt                                                                                                                                                                                                                                                                         |
+| :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|  título  | Crie um título de um ebook sobre o tema de PHP, o ebook é do nicho de programação e o subnicho é de php, o título deve ser épico e curto, e teha uma temática de mad max no título, me liste 5 variações de títulos                                                      |
+| conteúdo | Chat, me crie 5 títulos de possíveis capítulos para um ebook que estou criando que compõe o título "DESBRAVANDO O DESERTO PHP: GUIA PARA INICIANTES DESTEMIDOS", o título se deve porque o tema que escolhi para tratar o assunto é MAD MAX. E por favor siga minhas {REGRAS} para a composição dos 5 títulos.
+| regras de conteúdo | {REGRAS} Associar nome com o filme e/ou personagens do Mad Max. Tratar temas simplistas, quero criar o ebook de forma simples apenas como um demonstrativo de o que pode ser capaz de ser realizado utilizando o mesmo. |
+| capítulo | Faça um texto para ebook, com foco no (capítulo x)
+| regras de capítulo | {REGRAS} Explique sempre de uma maneira simples. Deixe o texto enxuto. Sempre traga exemplos de código em contextos reais. Crie um nome.Sempre deixe um Titulo e subtitulo sugestivo por tópico. Utilize o contexto do tema MAD MAX.
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+TESS AI:
 
-### Exemplos e Insigths
+|  Ação  | prompt                                                                                 |
+| :----: | -------------------------------------------------------------------------------------- |
+| título | mad max exploring the desert in his black maverick |
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+## ✨ Features
 
-## Links Interessantes
+- Conteúdo gerado via ChatGPT
+- Imagens geradas via TESS AI
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
+## 📚 Materiais
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+- Imagens utilizadas em `assets`
+- ebook gerado durante as aulas em `output`
+
+## 🛠️ Instruções de execução
+
+Utilize os prompts acima nas ferramentas sugeridas para gerar o material base e utilize uma ferramenta de edição de documentos como power point, libreoffice , indesign para diagramação.
+
+## 👨‍💻 Developer
+
+<p>
+    <img 
+      align=left 
+      margin=10 
+      width=80 
+      src="https://avatars.githubusercontent.com/u/164921227?s=400&u=1b2ae8883aca0160abb5373de55e918a1f566aec&v=4"
+    />
+    <p>&nbsp&nbsp&nbspAdrian Ricardo da Silva<br>
+    &nbsp&nbsp&nbsp
+    <a href="https://github.com/silvaadrian">
+    GitHub</a>&nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/adrian-ricardo-da-silva-74a59019b/">LinkedIn</a>
+&nbsp;|&nbsp;
+<br/><br/>
+<p>
+
+---
+
+⌨️ com 💜 por [Adrian Ricardo da Silva](https://github.com/silvaadrian)
